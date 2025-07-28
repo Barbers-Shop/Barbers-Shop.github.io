@@ -586,47 +586,22 @@ strong {
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
-.google-map {
+.contact-section {
+  background-image: url('../images/barber-customer-giving-high-five.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-section .text-white {
+  color: var(--dark-color) !important;
+}
+
+.booking-form {
+  background: var(--white-color);
   border-radius: var(--border-radius-medium);
-  filter: hue-rotate(45deg);
-}
-
-.contact-block-wrap {
-  background: var(--primary-color);
-  border-radius: var(--border-radius-medium);
-  padding: 0;
-  min-height: 200px;
-}
-
-.contact-block {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-medium);
-  transform: rotate(8deg);
-  height: 100%;
-  padding: 20px 40px;
-}
-
-.contact-block h6 {
-  transform: rotate(-8deg);
-}
-
-.contact-block .custom-icon {
-  background: var(--primary-color);
-  border-radius: var(--border-radius-large);
-  display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  position: relative;
-}
-
-.contact-block strong {
-  display: block;
-  color: var(--white-color);
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  padding: 65px;
 }
 
 
@@ -786,7 +761,7 @@ strong {
   .custom-block {
     display: none;
   }
-  
+
   .navbar {
     background-color: var(--dark-color);
   }
