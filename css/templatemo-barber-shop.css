@@ -17,8 +17,8 @@ https://templatemo.com/tm-585-barber-shop
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #c12828;
   --custom-btn-bg-hover-color:    #FDBB2D;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --dark-color:                   #1a1a1a;
+  --p-color:                      #333333;
   --border-color:                 #7fffd4;
   --link-hover-color:             #B22727;
 
@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: #2c2c2c;
 }
 
 h1,
@@ -102,9 +102,9 @@ p {
 }
 
 ul li {
-  color: var(--p-color);
+  color: #444444;
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light);
+  font-weight: var(--font-weight-normal);
 }
 
 a, 
@@ -449,7 +449,7 @@ strong {
 }
 
 
-/*---------------------------------------
+/*--------------------------------ார்கள்
   FEATURED               
 -----------------------------------------*/
 .featured-section {
@@ -840,4 +840,3 @@ strong {
     padding: 35px;
   }
 }
-
